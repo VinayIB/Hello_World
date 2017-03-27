@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>University for Learning</title>
+</head>
+<style>
+table, th, td {
+    border-spacing:10px;
+    border: 2px solid black;
+}
+#table1{
+ margin-right:20px;
+ margin-top:100px;
+}
+
+#header {
+    line-height:10px;
+    background-color: #33ffcc;
+    height:75px;
+    width:700px;
+    float:left;
+    padding:5px; 
+	
+}
+#content {
+    line-height:10px;
+    height:400px;
+    width:700px;
+    float:left;
+    padding:5px; 
+}
+#content1 {
+    line-height:10px; 
+     border:2px solid black;
+	 background-color: #ff99ff;
+    height:385px;
+    width:275px;
+    float:left;
+    padding:5px;
+ }
+ 
+#content2 {
+    line-height:10px; 
+     border:2px solid black;
+	 background-color:#ff9900;
+    height:280px;
+    width:340px;
+	float:right;
+	margin-right:25px;
+	margin-top:55px;
+	border-radius:60px; 
+}
+#image{
+    float:right;
+	margin-right:1px;
+	margin-top:-50px;
+   
+}
+
+#footer {
+    line-height:10px; 
+    background-color:#3399ff;	
+    height:40px;
+    width:700px;
+    float:left;
+    padding:5px; 
+}
+</style>
+
+<body>
+<center>
+<table>
+<tr><td>
+<div id="header">
+  <center><h1><b><i>University for Learning</i></b></h1>
+  <image id="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAAvCAMAAAAFDR4hAAAArlBMVEX///8AoNoAntkAndkAmtgAo9v8/Py85fWGzusAm9hNvOUAmNf4/P6DxOcfr+Dy8vLJ6vdBsuHw8PAuq97k5OTY2NimpqaMx+mysrJoveXNzc3l9vzq6uqz3/Lg4OCurq7CwsKVlZWEhISd1u/S0tKgoKDe8/vv+f2Hh4e8vLzW7/mRkZFbuOOo2vBfweZ5eXmM1O5vb29cXFw9t+Ok0u3B4fJWvuV1y+sTqd2f3PGqvjeLAAAF/klEQVRYhe2XeZuqOg/Aw1IWUasIXKysA6i4oB7POej3/2Jvqqhsc1+dv2+eecaStvm1aRoCXH3Vvy6hKRttMBYFkct4UG6gV8j51fbL8uirTfG1Uptg36TUal1XrVzCWZaN2aRma7jRiCGLZDZFmc0EXZJJMVl1mEeZvKZphq7LBhcZG1VL0kUV+35jH+q43LQGQCkJ4q62F0TqOtmV/nKITwtV210kUZeKRRs6FYXytQKBXGY3IYIgkKpJCIfuCTpteheulYag6YI4f1oc+lNJFHZJbWOr/U4UpXkb6qOl2XOx+yTZ3913RmZxb6KSQ/2LKMibJZcNOj05LlrQ5CIJl7J1xEuNCEl7o38RSjpagIEoEK25PIQaw4aqAfWJKJJj5/yGydhvqSboMzyXjtP7oSJpQssadIlrEkfdmMHgaivn4hknXvbvQYVxE3rUheeBDdDOdAJvyGYm+2e+wmG7p3+nLaiK0H+eTUFsTvhONIGAKmMoqf8fOpl2ofITypc+/SYTNGUzNY4APH90QulD6IJvdPQOExLCI2PfuuI/gV6/uQRdWe5kDa2sLrjKdih9CC3FvjPqkz0hfIPDpBaEP4RiXhPeOtLFXC5vVwivmHj58xZ0sVqgLDebjTqsQ2c8jtrvmz5RL+ROGmJmkbTmFe6HkvldMP1eVj+BrkbyoBo24VttTumFCqJxf8vgO8j4EXRzER5JcaVJgp40zqt/p5ekkrI4vwdVB0VRPhPVStPJoDhe0cJV41d73PBv/07Hq2ElKz76Dagvi7XsuBxjPSGJDxEEvXFrPoze4rsr48u1JDBMDHL++5ABX+m5bvEH97Q3OfAk+7yOi7Fez/J/+MuyvtIPoar4TRpUjBp0L5O6OxdzXOrg59Ahr2U6uZR31KCrsbRrnHuCs/Sa5tO3TKH3+7cO9aWe2JSKD6GJhPnzHvQLiVcg3fitQ8dSO9ZGOEl4JeAuVO2+xOvliiZj/ah1S6QXVJXEeatY8DGApRfmrcqhXpiteN1DOnVPLZDGEjm2u3kozZ5Gz59C+X1Aqtbay/IJ3UjirFMA8lASnkshH0NhccYko4+bxZn/fG2i7wpoy4In9OnDKkKleRvargb5Z8X8FTyr8oIfTsb5unrI5sgvxQ06QTf0pKxSqEV9P1Tec8F0XxTnyxXOuqQ3ys7JfEokXRbHf3FEMSayIVxmuz1faiHps07NidElcBtV/PEPrib0tyFJknH/pkLRMYFpo9FIa2aETTLaTfnnD8Gvot1upO0nN9TqHxzaZcJwxKVyAW/+bnT/mY+a8l1JtJioN4f46ublek7uKf/vHdDjglpvXXpt/Cf/yefiha7Zpz8E91+mVAol8sB1gEbYfI6iQd9kL1JqTwo+uEpjwIExBpRS1ComxX+UcmN0bd26rROHY4+ihAgNwXTRpsUNcZzlBHwy0NtM5TaTgpUjqbIDYEcUQoW3lYf6wEygeejijqI8N5XUzS0I3Pxwh7pZjMPzPLOV/AG1tyzApWcV1HVDlocmn2RCmocOtSKwXNfxgLpuAHlsgaNgd8QUK3cdNJxu44A6ebA2g19pHHpbN3bogVl3qBe7Jw8pXpwCtx+CtwY7s9ERLKqg6yg/WVsGQX6w4eBFWxwAdmxnuMIoyyBC+kmBQ+rFtr21HYd7LswUN4W1Fx2sNAhiZtv0BPB1g+Y5izOw1gwP3rUqaOB6kIfrm/dDhHrWF4SRwtg2hThyoxs0pJEDLMpjYC7l0F9AnSgITVRDZoW5gt7dmt7Jtm0vi1gAXxE7WTQKvMwC75dJTzGeS3bbKQKCzAZ6wLPFJ8eGLy84gBNZ2/ArgvCAnXYMtsOtb2NnCyzDnVK0mcbBXQ0sTSm6nlkK2Cw1wWKpBx5LI0pTz7MxACIPd+pEgIcfIA3DLkX1mvJAxjHAKOpsS7EZsyDmyzdTwJmWDUHEUsVMLcBwRpuBYt7Ut4imIXsG9+Mfj+ZHmzng5vyi3LX8x3bh3qz+lOrxoNCD0upQqm7lOYWLmQf9l/hxG0Pu3obg/ekVO86sf7XF5X+/GJs3hxEH1QAAAABJRU5ErkJggg==" height="60px" width="160px">
+  </div>
+</td></tr>
+<tr>
+<td>
+<div id="content">
+<div id="content1">
+
+<center><h4>University Coarse Catalog</h4></center>
+<ul type="disc">
+ <li>JEE</li>
+  <ul type="circle">
+   <li>Core Java</li><br>
+   <li>Web Components</li><br>
+   <li>Frameworks</li>
+  </ul><br>
+  <li>.Net</li><br>
+  <ul type="circle">
+   <li>SQL Server</li><br>
+   <li>C#</li><br>
+   <li>Linq</li>
+  </ul><br>
+   <li>Mainframe</li><br>
+   <li>BI</li><br>
+   <li>RDBMS</li><br>
+   <ul type="circle">
+   <li>C</li><br>
+   <li>UNIX</li><br>
+   <li>Oracle</li>
+  </ul>
+   
+ </ul>
+</div>
+<div id="content2">
+<center id="table1">
+      Username:<input  type="text" name="userName" /><br><br>
+      Password:&nbsp;<input  type="password" name="password" /><br><br>
+	<center>				
+    &nbsp; &nbsp;&nbsp; &nbsp;<input type="submit" name="SUBMIT" value="SUBMIT"/>               
+	</center>
+ </center>
+	
+</div>
+</td>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div id="footer">
+<center>
+ <h1><b><i>Copyright</i> @ IGATE 2016</b></h1>
+ </center>
+</div>
+</td>
+</tr>
+ 
+
+</table>
+</center>
+</body>
+</html>
